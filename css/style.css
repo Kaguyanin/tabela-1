@@ -1,0 +1,71 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'FonteTabela';
+    src: url(../fonts/Howie_s_Funhouse.ttf)
+}
+
+table#tabela {
+    position: relative;
+    /*border: 1px solid #000000;*/
+    font-family: 'FonteTabela', sans-serif;
+    padding: 10px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table td {
+    /*border: 1px solid #000000;*/
+    padding: 10px 50px 10px 40px;
+    border-right: 4px solid #ffffff;
+}
+
+table td.space {
+    border-bottom: 15px solid #ffffff;
+}
+
+table td.dark {
+    background-color: rgb(193, 193, 193);
+}
+
+table td.light {
+    background-color: rgb(230, 230, 230);
+}
+
+table td.basic {
+    background-color: rgb(78, 166, 217);
+    color: #ffffff;
+}
+
+table td.premium {
+    background-color: rgb(36, 104, 160);
+    color: #ffffff;
+}
+
+table td.business {
+    background-color: rgb(48, 64, 85);
+    color: #ffffff;
+}
+
+table td img {
+    /*background: url('../img/icons8-checkmark.svg');*/
+    width: 20px;
+}
+
+
+table td.price1 {
+    color: #73a7d8
+}
+
+table td.price2 {
+    color: #2c6ba7
+}
+
+table td.price3 {
+    color: #0e4981
+}
+
+div#interface {
+    width: 100%;
+    margin-top: 5%;
+}
